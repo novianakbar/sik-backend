@@ -29,5 +29,8 @@ app.use("/export", exportRouter);
 app.use("/balance", monthlyBalance);
 app.get("/recap", authentication, recap);
 app.get("/stats", authentication, stats);
+app.get("/", (req, res) => {
+  res.json({ message: "Express SIK REST API" });
+});
 
 server.listen(port);

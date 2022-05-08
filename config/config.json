@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
+    "username": "guest",
+    "password": "November1115",
     "database": "agplus_keuangan",
-    "host": "127.0.0.1",
+    "host": "54.254.103.168",
     "dialect": "mysql"
   },
   "test": {
