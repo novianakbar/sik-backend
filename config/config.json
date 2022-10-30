@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "guest",
-    "password": "November1115",
+    "username": "username",
+    "password": "password",
     "database": "agplus_keuangan",
-    "host": "54.254.103.168",
+    "host": "host",
     "dialect": "mysql",
     "dialectModule": "require('mysql2')"
   },
